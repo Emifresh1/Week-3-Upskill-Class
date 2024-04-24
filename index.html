@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Upskill task 3</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section class="globalcontainer">
+      <div class="innerContainer">
+        <h1 class="mainHeader">Genesys Upskill Survey Form</h1>
+
+        <div class="formContainer">
+          
+          <div class="formGroup">
+            <label for="name">Name:</label> <br />
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Enter name"
+              class="inputBox"
+            />
+          </div>
+
+          <div class="formGroup">
+            <label for="Email">Email:</label> <br />
+            <input
+              type="text"
+              name="Email"
+              id="Email"
+              placeholder="Enter Email"
+              class="inputBox"
+            />
+          </div>
+          <div class="formGroup">
+            <label for="Age">Age:</label> <br />
+            <input
+              type="text"
+              name="Age"
+              id="Age"
+              placeholder="Enter Your Age"
+              class="inputBox"
+            />
+          </div>
+
+          <div class="formGroup">
+            <label for="name">What option best describes you</label> <br />
+            <select name="personality" class="selectOptions">
+              <option value="Student" label="Student"></option>
+              <option value="Working Professional" label="Working Professional"></option>
+              <option value="IT Professional" label="IT Professional"></option>
+              <option value="Unemployed" label="Unemployed"></option>
+              <option value="Enterpreneur" label="Enterpreneur"></option>
+            </select>
+          </div>
+          <div class="formGroup">
+            <label for="name">Would You Recomend Genesys TechHub To A Friend</label> <br />
+            <div class="radioSection">
+              <div>
+                <input type="radio" />
+                <span>Yes</span>
+              </div>
+              <div>
+                <input type="radio" />
+                <span>No</span>
+              </div>
+              <div>
+                <input type="radio" />
+                <span>Maybe</span>
+              </div>
+            </div>
+          </div>
+          <div class="formGroup">
+            <label for="name">Languages And Framework Known</label> <br />
+            <div class="CheckboxSection">
+              <div>
+                <input type="checkbox" />
+                <span>C</span>
+              </div>
+              <div>
+                <input type="checkbox" />
+                <span>C++</span>
+              </div>
+              <div>
+                <input type="checkbox" />
+                <span>C#</span>
+              </div>
+              <div>
+                <input type="checkbox" />
+                <span>Java</span>
+              </div>
+              <div>
+                <input type="checkbox" />
+                <span>Python</span>
+              </div>
+              <div>
+                <input type="checkbox" />
+                <span>Javascript</span>
+              </div>
+              <div>
+                <input type="checkbox" />
+                <span>React</span>
+              </div>
+              <div>
+                <input type="checkbox" />
+                <span>Angular</span>
+              </div>
+              <div>
+                <input type="checkbox" />
+                <span>Django</span>
+              </div>
+              <div>
+                <input type="checkbox" />
+                <span>Spring</span>
+              </div>
+          <div class="formGroup">
+            <label for="name">Any comment or suggestion</label> <br />
+            <input type="textarea" class="textarea" />
+          </div>
+          <input type="submit" class="submit" />
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
